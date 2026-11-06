@@ -15,7 +15,7 @@ def radix_sort(li):
         
         for buc in bucket:
             li.extend(buc)
-        it +=1
+        it +=16
         
 li = [53, 3, 24, 12]
 radix_sort(li)
